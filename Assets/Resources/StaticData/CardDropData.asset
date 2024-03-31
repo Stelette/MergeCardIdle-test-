@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b034f8b247f64ca0ac8ad9ce2c43a2f9, type: 3}
+  m_Name: CardDropData
+  m_EditorClassIdentifier: 
+  LootDropTableItem:
+    lootDropItems:
+    - item: 1
+      probabilityWeight: 30
+      probabilityRangeFrom: 0
+      probabilityRangeTo: 30
+    - item: 2
+      probabilityWeight: 20
+      probabilityRangeFrom: 30
+      probabilityRangeTo: 50
+    - item: 3
+      probabilityWeight: 15
+      probabilityRangeFrom: 50
+      probabilityRangeTo: 65
